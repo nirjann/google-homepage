@@ -1,0 +1,72 @@
+@use "variables"as *;
+
+.hero {
+    text-align: center;
+    padding: 10em 0;
+}
+
+.logo-img {
+    margin: 0 auto;
+}
+
+.search-area {
+    padding: 2em 0;
+
+}
+
+.bar {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 3.3em;
+    border: 0.2px solid #dcdcdc;
+    border-radius: 25px;
+    margin-bottom: 2em;
+
+    &:hover {
+        box-shadow: 1px 1px 8px 1px #dcdcdc;
+    }
+    &:focus-within {
+        outline:none;
+        box-shadow: 1px 1px 8px 1px #dcdcdc;
+    }
+}
+
+.search-icon {
+    display: inline-block;
+    width: 14px;
+    position: relative;
+    left: 5px;
+    color: #dcdcdc;
+    margin-right: 0.5em;
+}
+.search-bar {
+    width: 550px;
+    height: 2.7em;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.voice-icon {
+    display: inline-block;
+    width: 12px;
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+.search-btns {
+    margin: 2 3em;
+
+    .button {
+        background-color: $btn-background;
+        border: none;
+        padding: 0.5em 1em;
+        margin: 0 0.5em;
+        color:$text-primary;
+        cursor: pointer;
+    }
+}
+

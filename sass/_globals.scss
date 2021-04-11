@@ -1,0 +1,15 @@
+@use "variables" as *;
+
+html {
+    font-family: Arial,  sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: $text-primary;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}

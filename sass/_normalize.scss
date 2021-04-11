@@ -1,0 +1,54 @@
+// Box sizing
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+// default body rules
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+//remove default margin
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+hr,
+ul[class],
+ol[class],
+li,
+ul[class] {
+    margin: 0;
+}
+
+//default list styles
+ul[class],
+ol[class] {
+    list-style: none;
+    padding: 0;
+}
+
+//default a tags
+a {
+    text-decoration: none;
+}
+
+//images 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+//for fonts in inputs and buttons
+input,
+button,
+textarea {
+    font: inherit;
+}

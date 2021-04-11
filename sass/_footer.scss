@@ -1,0 +1,48 @@
+@use "variables" as *;
+
+footer {
+    
+  
+    
+    background-color: $footer-background;
+    font-size: 15px;
+    color: $text-secondary;
+
+    hr {
+        
+        border-top: 0.5px solid;
+        border-bottom: 0;
+    }
+}
+
+.country {
+    margin-bottom: 0.5em;
+    padding-top:1.2em;
+    padding-left: 2em;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.footer-navs {
+    padding: 0.5em 0;
+    
+    a {
+        color: $text-secondary;
+    }
+    
+}
+
+.footer-left {
+    padding-left: 2em;
+    li {
+        padding: 0 1em;
+    }
+}
+
+.footer-right {
+    padding-right: 2em;
+
+    li {
+        padding: 0 1em;
+    }
+}
